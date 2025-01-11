@@ -1,7 +1,7 @@
 // example/index.ts
 
 import { Elysia, t } from 'elysia'
-import { TWAngpao } from './src/index.ts';  // No need to use .ts extension
+import { TWAngpao } from '../src';  // No need to use .ts extension
 
 
 const app = new Elysia()
