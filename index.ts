@@ -1,7 +1,7 @@
 // example/index.ts
 
 import { Elysia, t } from 'elysia'
-import { TWAngpao } from './src'
+import { TWAngpao } from 'src'
 
 const app = new Elysia()
 .use(TWAngpao('TWA'))
