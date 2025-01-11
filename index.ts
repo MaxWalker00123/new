@@ -1,7 +1,8 @@
 // example/index.ts
 
 import { Elysia, t } from 'elysia'
-import { TWAngpao } from 'src'
+import { TWAngpao } from './src/index';  // No need to use .ts extension
+
 
 const app = new Elysia()
 .use(TWAngpao('TWA'))
